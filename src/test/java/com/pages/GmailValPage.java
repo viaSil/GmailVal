@@ -65,7 +65,7 @@ public class GmailValPage extends PageObject {
 
 	public static void logout_validation() {
 		ValidateLogout.waitUntilVisible();
-		System.out.println("Textul este:" + ValidateLogout.getText());
+		System.out.println("TEXTUL ESTE:" + ValidateLogout.getText());
 		Assert.assertEquals("Sign in to continue to Gmail", ValidateLogout.getText());
 	}
 
